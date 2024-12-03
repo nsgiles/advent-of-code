@@ -1,14 +1,13 @@
 /**
  * Advent of Code 2024 Day 2
  * https://adventofcode.com/2024/day/2
- * Input: https://adventofcode.com/2024/day/2/input
  */
 
-const DATA = `
+const INPUT = `
 // Input above.
 `;
 
-const reports = DATA.match(/.+(?=\n)/g)
+const reports = INPUT.match(/.+(?=\n)/g)
 
 let safeWithoutDampener = 0;
 let safeWithDampener = 0;

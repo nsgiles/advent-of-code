@@ -1,16 +1,15 @@
 /**
  * Advent of Code 2024 Day 1
  * https://adventofcode.com/2024/day/1
- * Input: https://adventofcode.com/2024/day/1/input
  */
 
-const DATA = `
+const INPUT = `
 // Input above.
 `;
 
 // Form two arrays from left column and right column and sort by value
-const list1 = DATA.match(/\d+(?= )/g).sort((a, b) => a - b);
-const list2 = DATA.match(/\d+(?=\n)/g).sort((a, b) => a - b);
+const list1 = INPUT.match(/\d+(?= )/g).sort((a, b) => a - b);
+const list2 = INPUT.match(/\d+(?=\n)/g).sort((a, b) => a - b);
 
 // Set a running total for distance and similarity
 let distance = 0;
