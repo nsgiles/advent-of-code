@@ -3,7 +3,7 @@
  * https://adventofcode.com/2024/day/4
  */
 
-const INPUT =`
+const INPUT = `
 // Input above.
 `;
 
